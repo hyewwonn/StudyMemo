@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <Button
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:id="@+id/txtred"
-        android:background="@drawable/btnstyle"
-        android:backgroundTint="#E61616" />
-    <Button
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:id="@+id/txtorange"
-        android:background="@drawable/btnstyle"
-        android:backgroundTint="#E61616" />
-    <Button
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:id="@+id/txtyellow"
-        android:background="@drawable/btnstyle"
-        android:backgroundTint="#E61616" />
-
-
-
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/dlgedttxtcolor"
+        android:hint="글자 색을 선택하세요"/>
 </LinearLayout>
