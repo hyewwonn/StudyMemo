@@ -22,9 +22,6 @@
             android:name=".register"
             android:exported="false" />
         <activity
-            android:name=".MemoActivity"
-            android:exported="false" />
-        <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>

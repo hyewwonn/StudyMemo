@@ -55,7 +55,7 @@ public class LoginActivity extends AppCompatActivity {
 //String id = cursor.getString(0);
 // String pw = cursor.getString(1);
 // } while(cursor.moveToNext());
-                    Intent in = new Intent(LoginActivity.this, MemoActivity.class);
+                    Intent in = new Intent(LoginActivity.this, MainActivity.class); //intent 메모로 수정
                     in.putExtra("userID", userID);
                     in.putExtra("userPass", userPass );
                     startActivity(in);
